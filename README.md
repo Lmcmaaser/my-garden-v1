@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# MyGarden
 
+## Description:
+
+A static React app designed to record and track details about your garden.
+
+*under construction*
+
+### Technology used:
+
+JavaScript, React, HTML/JSX, CSS, Node
+
+### User Stories:
+
+	New users
+		-as a new user I want to be able to make an account     High
+		-as a new user I want to be able to create a new garden record - High
+	Returning users
+		-as a returning user I want to be able to sign into my account.   High
+		-as a returning user I want to view my saved garden records.    High
+        -as a returning user I want to be able to delete a garden record. Medium
+		-as a returning user I want to be able to log out.    High
+	Keyboard-only users
+		-as keyboard-only user, I want to be able to reach the main navigation links with a keyboard so that I can determine the different areas of the site. 	High
+		-as keyboard-only user, I want the ability to reach all links, form controls and page functions in order to perform an action or navigate.	High
+		-as a keyboard-only user, I want the ability to use the enter key to open the selected link so that every link on a page is accessible using a keyboard.
+		-as keyboard-only user, I want to know where I am on the screen at all times.	High
+	Screen reader users
+		-as a screen reader user, I want to hear the text equivalent for each image button so that I will know what function it performs.	High
+		-as a screen reader user, I want to know what each form label is for each form field so that I can enter the correct information in the form. 	High
+		-as a screen reader user, I want to know what the column and row headers for each table cell so that I can understand the meaning of the data. 		High
+	Users with low-vision
+		-as a user with low-vision, I want to be able to make the text larger on the screen so that I can read it. 	High
+	Users with color-blindness
+		-as a user who is color blind, I want to have access to information conveyed in color so that I do not miss anything and I understand the content. 	High
+		-as a user who is color blind, I want to links to be distinguishable on the page so that I can find the links and navigate the site. 	High
+		-as a user who is color blind, I want to know what fields are required so that I can fill out the form. 		High
+	Administrators
+		-as an administrator I want to be able to see all user names	  High
+
+### Screen Inventory:
+	1. Home page with login button and general info about app
+	2. create account page
+	3. user dashboard page/nav bar
+	4. page to add a new garden record (form)
+	5. page to view an existing garden record
+	6. page to edit an existing garden record
+
+
+
+---
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

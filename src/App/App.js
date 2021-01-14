@@ -9,7 +9,7 @@ export default class App extends Component() {
             return (
               <div className="App">
                   <header>
-                      <h1>App Title</h1>
+                      <h1>My Garden</h1>
                   </header>
                   <nav>
                       Tortor consequat id porta nibh venenatis cras sed felis eget.

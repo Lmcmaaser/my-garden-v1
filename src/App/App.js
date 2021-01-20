@@ -19,8 +19,8 @@ export default class App extends Component() {
                     </nav>
                     <main className="main_content" role="main">
                         <Route exact path='/' component={LandingPage}/>
-                        <Route path='/signin' component={SignIn}/>
-                        <Route path='/signup' component={SignUp}/>
+                        <Route path='/home' component={Home}/>
+                        <Route path='/record' component={Record}/>
                     </main>
                     <footer>
                         <Footer />
